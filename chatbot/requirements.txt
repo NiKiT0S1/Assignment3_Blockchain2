@@ -1,0 +1,9 @@
+streamlit
+pymongo
+langchain
+sentence-transformers
+chromadb
+PyMuPDF
+tiktoken
+openai
+ollama
