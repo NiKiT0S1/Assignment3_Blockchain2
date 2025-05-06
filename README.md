@@ -2,6 +2,8 @@
 
 **AI Constitution Assistant** is a Streamlit application that leverages LangChain, Ollama, and MongoDB technologies to answer questions related to the Constitution of the Republic of Kazakhstan, as well as your uploaded PDF and TXT documents.
 
+![image](https://github.com/user-attachments/assets/cb83430e-ca2a-45bb-bbe5-327613c70301)
+
 ## 🧠 Features
 - 📜 Answers questions about the Constitution of Kazakhstan
 - 📂 Allows uploading your own documents (PDF, TXT)
@@ -67,8 +69,33 @@ export MONGO_URI="mongodb://your_mongodb_host:27017"
 └── chat_handler.py        # LLM response generation
 ```
 
+## 📝 Usage
+1. **Start the application**: After following the setup instructions, navigate to the URL provided by Streamlit (typically http://localhost:8501)
+2. **Ask questions**: Type your question about the Constitution of Kazakhstan in the text input field and press Enter or click the Submit button
+3. **Upload documents**: Use the file uploader in the sidebar to add your own PDF or TXT documents
+4. **View history**: Scroll through your chat history displayed in the main panel
+5. **Clear database**: If needed, use the "Clear document database" button to remove all stored documents
+
+## 📸 Demo Screenshots
+
+### Main Interface
+![image](https://github.com/user-attachments/assets/dd3c11ab-4f27-4593-8eee-20577fd2177f)
+
+
+### Document Upload
+![image](https://github.com/user-attachments/assets/dd31534c-5ea4-4d22-a23f-5d0f61b5d8fc)
+
+
+### Question and Answer Example
+![image](https://github.com/user-attachments/assets/95ee5798-abcc-49e1-9694-c9ab9a97c42c)
+
+
+### Database Management
+![image](https://github.com/user-attachments/assets/90d6d874-6bcc-4773-b7b5-d8fc30022fa4)
+![image](https://github.com/user-attachments/assets/dee22fa1-9990-4539-9802-37f1db649ecd)
+
 ## 💡 Example Questions
-- 🇬🇧 What is the role of the President according to the Constitution?
+- EN What is the role of the President according to the Constitution?
 - 🇷🇺 Какие права имеет гражданин Казахстана согласно Конституции?
 
 ## 📌 Notes
